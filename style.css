@@ -1,0 +1,46 @@
+/* -- This is another way to create boxes in a div
+
+.parent { 
+    width: 960px; 
+    margin: 0 auto; 
+    height: 250px;
+    padding: 20px;
+    background-color: bisque;
+}
+
+.parent [class*='child'] { 
+    width:300px; 
+    height:200px; 
+    float: left; 
+    margin-right: 30px; 
+}
+
+.parent .child1 { 
+    background-color: #333; 
+    color: white;
+}
+
+.parent .child2 { 
+    background-color: #333; 
+    color: white;
+}
+
+.parent .child3 { 
+    background-color: #333; 
+    color: white;
+    margin-right: 0;
+}
+*/
+
+
+div.parent {
+    display: flex;
+    border: 2px dashed black;
+}
+
+div {
+    flex: 1;
+    margin: 15px;
+    padding: 40px;
+    border: 2px solid #ccc;
+}
